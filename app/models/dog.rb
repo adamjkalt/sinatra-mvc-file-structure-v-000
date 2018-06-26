@@ -11,10 +11,6 @@ def initialize(name, breed, age)
   @@all < self
 end
 
-def self.save
-  @@all < self.new
-end
-
 def self.all
   @@all
 end
